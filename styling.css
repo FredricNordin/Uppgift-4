@@ -1,0 +1,51 @@
+header {
+  text-align: center;
+  background-color: rgb(228, 228, 228);
+  width: 270px;
+  margin: 0 auto 30px;
+  padding: 1px;
+  border-radius: 5px;
+}
+
+main {
+    text-align: center;
+  }
+
+  input {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    margin: 0 auto;
+    display: table;
+    padding: 20px;
+  }
+
+  li {
+    text-align: left;
+    font-weight: bold;
+    position:relative;
+    background-color: rgb(228, 228, 228);
+    width:250px;
+    padding:10px;
+    margin:5px;
+    border-radius: 5px;
+    list-style:none;
+    
+  }
+  
+   /* Nedan är klassen för Delete ikonen */
+   .tabort {
+    position: absolute;
+    right: 5px;
+    top: 1px;
+    font-size: 25px;
+    color: rgb(204, 0, 0);
+  
+  }
+
+  /* Nedan är klassen för att markera uppgift som avklarad */
+  .avklarad {
+    text-decoration: line-through;
+  }
+
